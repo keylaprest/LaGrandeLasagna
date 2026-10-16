@@ -1,6 +1,5 @@
 
-@import
- url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pinyon+Script&family=Uncial+Antiqua&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Cormorant+SC:wght@300;400;500;600;700&family=Italianno&family=Pinyon+Script&family=Uncial+Antiqua&display=swap');
 
@@ -76,16 +75,13 @@ h3 {color: #8d3411f4;
     }
 
 ul, ol {font-family:'Bilbo Swash Caps';
-    font-size; 24px;
     color: #3b2921;
     line-height: 1.6;
     
     }
 
 
-body {background-image: 
-   
-    url('../imagenes/fondoitalia.jpg');
+body {background-image: url('../imagenes/fondoitalia.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -110,8 +106,7 @@ a {color: #687044;
     background-color: #c9b99a;
 }
 
-a:hover {
-    color: #d98b27;
+a:hover {color: #d98b27;
     text-decoration: underline;
     font-family: 'Cormorant SC';
     font-size: 32px;
