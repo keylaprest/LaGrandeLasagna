@@ -454,7 +454,7 @@ audio {
     transform: translateY(-3px);
 }
 
-/* Se indica que el link abre en otra pestaña */
+
 .enlaces a::before {
     content: "𖠁";
 }
@@ -548,6 +548,52 @@ audio {
     pointer-events: auto;
 }
 
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+    padding: 14px 16px;
+    background-color: var(--vino);
+    border-bottom: 3px solid var(--dorado);
+}
+
+.menu a {
+    padding: 8px 16px;
+    font-family: var(--fuente-versalitas);
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--crema);
+    border: 2px solid var(--dorado);
+    border-radius: 999px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    background-color: var(--dorado);
+    color: var(--vino);
+}
+
+.contacto {
+    text-align: center;
+}
+
+.redes--grandes {
+    justify-content: center;
+    gap: 20px;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 16px 20px;
+}
+
+.redes--grandes a {
+    width: 80px;
+    height: 80px;
+    border-width: 3px;
+}
 
 
 @media (max-width: 600px) {
